@@ -2,5 +2,5 @@ FROM klakegg/hugo:ext-ubuntu
 
 EXPOSE 1313
 
-COPY . .
+COPY . ./
 CMD ["serve"]

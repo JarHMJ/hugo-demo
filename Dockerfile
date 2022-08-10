@@ -1,6 +1,6 @@
-FROM klakegg/hugo:ext-ubuntu
+FROM klakegg/hugo:0.101.0
 
 EXPOSE 1313
 
-COPY . ./
-CMD ["serve"]
+COPY . /src
+CMD ["server"]
